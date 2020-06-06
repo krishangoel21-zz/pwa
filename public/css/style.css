@@ -1,0 +1,40 @@
+  body{
+    position: relative;
+  }
+
+  main {
+    height: calc(100vh - 126px);
+    overflow-y: auto;
+    margin-top: 56px;
+    padding: 16px;
+  }
+
+ .addbtn{
+   position: absolute;
+    right: 6px;
+    bottom: 100px;
+ }
+
+.thumbnail{
+  width: 100px;
+}
+
+.sidenav-trigger{
+  color: white;
+}
+
+nav.z-depth-0{
+  position: fixed;
+  top: 0;
+}
+
+.page-footer{
+   position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.recipe-ingredients,
+.recipe-title {
+    word-break: break-word;
+}
